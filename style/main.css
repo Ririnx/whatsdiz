@@ -7,10 +7,6 @@ body {
   margin: 0;
 }
 
-.background {
-  background-color: rgb(255, 192, 203)
-}
-
 .song {
   visibility: hidden;
 }
@@ -116,7 +112,7 @@ body {
   left: 41.5%;
   position: absolute;
   /* transform: scale(0.1); */
-  top: -35%;
+  top: -38%;
   width: 80px;
 }
 
@@ -208,7 +204,7 @@ body {
 }
 
 .wish-hbd {
-  color: #f2d74e;
+  color: #604658;
   font-size: 3em;
   margin: 0;
   text-transform: uppercase;
@@ -233,25 +229,25 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 48%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 45%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
+    left: 40%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 40%;
   }
 }
 
